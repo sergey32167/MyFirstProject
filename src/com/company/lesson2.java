@@ -96,20 +96,19 @@ public class lesson2 {
         int b = a % 10;
         switch (b){
             case  1:
-            System.out.println(a + " програмист");
+            System.out.println(a + " программист");
             break;
             case  2:
-            System.out.println(a + " програмиста");
+            System.out.println(a + " программиста");
             break;
             case  3:
-            System.out.println(a + " програмиста");
+            System.out.println(a + " программиста");
             break;
             case  4:
-            System.out.println(a + "програмиста");
+            System.out.println(a + "программиста");
             break;
             default:
-            System.out.println(a + "програмистов");
+            System.out.println(a + "программистов");
         }
-
     }
 }
