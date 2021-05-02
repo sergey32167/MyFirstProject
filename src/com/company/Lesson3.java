@@ -12,7 +12,7 @@ public class Lesson3 {
 
     public void task1() {
         int[] array1 = new int[21];
-        for (int i = 0; i < array1.length; i += 2) {
+        for (int i = 2; i < array1.length; i += 2) {
             array1[i] = i;
             System.out.print(array1[i] + " ");
         }
@@ -78,32 +78,27 @@ public class Lesson3 {
 
         int[] array5 = new int[5];
         int total1 = 0;
-        double q1 = 1;
         for (int i = 0; i < array5.length; i++) {
             array5[i] = rand.nextInt(16);
             System.out.print(array5[i] + " ");
             total1 = total1 + array5[i];
-            q1 = total1 / 5.0;
-
         }
         System.out.println();
-        System.out.print("Сумма" + q1);
+        System.out.print("Сумма" + total1);
         System.out.println();
 
         int[] array5a = new int[5];
         int total2 = 0;
-        double q2 = 1;
         for (int j = 0; j < array5a.length; j++) {
             array5a[j] = rand.nextInt(16);
             System.out.print(array5a[j] + " ");
             total2 = total2 + array5a[j];
-            q2 = total2 / 5.0;
         }
         System.out.println();
-        System.out.print("Сумма" + q2);
+        System.out.print("Сумма" + total2);
         System.out.println();
-        double result = q1 > q2 ? q1 : q2;
-        if (q1 == q2) {
+        int result = total1 > total2 ? total1 : total2;
+        if (total1 == total2) {
             System.out.print("Суммы равны");
         }
         System.out.print(result);
@@ -123,8 +118,6 @@ public class Lesson3 {
         } else {
             System.out.print("Не является строго возрастающей последовательностью");
         }
-
-
         System.out.println();
     }
 
@@ -132,19 +125,16 @@ public class Lesson3 {
 
         int[] array7 = new int[12];
         int max = array7[0];
-        int z = 0;
         for (int i = 0; i < array7.length; i++) {
             array7[i] = rand.nextInt(16);
             System.out.print(array7[i] + " ");
         }
-        for (int i = 0; i < array7.length; i++) {
-            if (array7[i] >= max) {
+        for (int i = 1; i < array7.length; i++) {
+            if (array7[i] > max) {
                 max = array7[i];
-                z = i;
             }
         }
         System.out.println();
-        System.out.println(z);
         System.out.println("Наибольший элемент" + " " + max);
     }
 
@@ -158,9 +148,7 @@ public class Lesson3 {
         int n = scan.nextInt();
         if (n <= 3) {
             System.out.println("Неподхлдящее число");
-            return;
         }
-
         int[] array9 = new int[n];
         int j = 0;
         for (int i = 0; i < n; i++) {
@@ -296,7 +284,7 @@ public class Lesson3 {
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < m - 1 - i; j++) {
                 int element = multiarray4[i][j];
-                if (element % 2 == 0) {
+                if (element % 2 == 0){
                     summeven += element;
                 }
             }
