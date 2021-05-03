@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d013b0ce-1a89-4446-8209-d84fb3f2b1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lesson3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lesson3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1619119953059</updated>
     </task>
+    <task id="LOCAL-00001" summary="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5.">
+      <created>1619946064229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619946064229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,5 +136,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
   </component>
 </project>
