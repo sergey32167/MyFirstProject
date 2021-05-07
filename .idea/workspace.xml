@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d013b0ce-1a89-4446-8209-d84fb3f2b1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AirTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/AirTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CivilTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/CivilTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FreightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/FreightTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LandTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/LandTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/LightTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MilitaryTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/MilitaryTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +28,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1rXQRhUWqEjTamQ5l8as4Vt3leS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,7 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619946064229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="с исправлениями 5 и 7 задания">
+      <created>1620048208278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620048208278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="готовый компьютер">
+      <created>1620322411923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620322411923</updated>
+    </task>
+    <task id="LOCAL-00004" summary="домашка 5 урок">
+      <created>1620679593691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620679593691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +159,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -142,6 +180,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
+    <MESSAGE value="с исправлениями 5 и 7 задания" />
+    <MESSAGE value="готовый компьютер" />
+    <MESSAGE value="домашка 5 урок" />
+    <option name="LAST_COMMIT_MESSAGE" value="домашка 5 урок" />
   </component>
 </project>
