@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d013b0ce-1a89-4446-8209-d84fb3f2b1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/airTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/civilTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/freightTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/landTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/lightTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/militaryTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/airTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AirTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/civilTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CivilTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/freightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FreightTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/landTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LandTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/lightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LightTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/militaryTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MilitaryTransport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +109,8 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +152,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
