@@ -1,15 +1,29 @@
-package com.company;
+package com.company.lesson5;
+
+import com.company.lesson5.AirTransport;
 
 public class MilitaryTransport extends AirTransport {
 
-    public int rocket = (int) (Math.random() * 6);
-    public boolean catapult;
+    private int rocket;
+    private boolean catapult;
+
+    public MilitaryTransport(int rocket, boolean catapult, String brand, int power, int maxSpeed, int mass, int band, int wings) {
+        this.rocket = rocket;
+        this.catapult = catapult;
+        this.brand = brand;
+        this.power = power;
+        this.mass = mass;
+        this.maxspeed = maxSpeed;
+        this.band = band;
+        this.wings = wings;
+    }
 
 
     public void info () {
+
         System.out.println("Марка" + " " + brand + " " + "Масса борта" + " " + mass + " " + "Максимальная скорость"
                 + maxspeed + " " + "Мощность" + " " + power + " " + "Размер крыльев" + " " + wings + " " + "Длинна полосы" +
-                " " + band + " " + "Количество ракет" + " " + rocket  );
+                " " + band + " " + "Количество ракет" + " " + rocket + "мощность в Кв"+ horse());
     }
 
     public void charge () {
@@ -18,18 +32,14 @@ public class MilitaryTransport extends AirTransport {
         } else {
             System.out.println("Боеприпасы отсутствуют");
         }
-
     }
 
     public void check () {
 
-        int w = (int)(Math.random()*2);
-
-        if (w == 0) {
+        if (catapult) {
             System.out.println("Катапультирование прошло успешно");
         } else {
-            System.out.println("У вас нет такой системы");
+            System.out.println("У вас нет системы катапультирования");
         }
-
     }
 }

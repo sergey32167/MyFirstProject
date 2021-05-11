@@ -2,36 +2,19 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Transport {
+public abstract class Transport {
 
-    public int power;
-    public int maxspeed;
-    public int mass;
-    public String brand;
+    protected int power;
+    protected int maxspeed;
+    protected int mass;
+    protected String brand;
+    double a;
 
-    public void setPower(int power) {
-        this.power = power;
+    protected double horse() {
+        return power * 0.74;
     }
 
-    public void setMaxspeed(int maxspeed) {
-        this.maxspeed = maxspeed;
-    }
 
-    public void setMass(int mass) {
-        this.mass = mass;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public void horse() {
-
-
-        double a;
-        a = power * 0.74;
-        System.out.println(a + "Кв");
-
-    }
+    public abstract void info();
 
 }
