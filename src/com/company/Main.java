@@ -1,19 +1,17 @@
 package com.company;
 
+import com.company.lesson5.CivilTransport;
+import com.company.lesson5.MilitaryTransport;
+
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-        LightTransport transport = new LightTransport();
-        transport.setBrand("Audi");
-        transport.setMass(1900);
-        transport.setMaxspeed(250);
-        transport.setPower(216);
-        transport.setPeople(4);
-        transport.setBody("купе");
-        transport.setFuel(5.5);
-        transport.setWheel(4);
+        CivilTransport transport = new CivilTransport(10, true, "sfdsf",11,11,11,11,11);
+        transport.info();
+        transport.man();
+        transport.check();
 
     }
 }

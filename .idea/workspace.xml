@@ -4,14 +4,14 @@
     <list default="true" id="d013b0ce-1a89-4446-8209-d84fb3f2b1a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AirTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/AirTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CivilTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/CivilTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FreightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/FreightTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LandTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/LandTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/LightTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MilitaryTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson5/MilitaryTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/airTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AirTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/civilTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CivilTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/freightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FreightTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/landTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LandTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/lightTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LightTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/militaryTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MilitaryTransport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620322411923</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="домашка 5 урок">
+      <created>1620679593691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620679593691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +182,7 @@
     <MESSAGE value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
     <MESSAGE value="с исправлениями 5 и 7 задания" />
     <MESSAGE value="готовый компьютер" />
-    <option name="LAST_COMMIT_MESSAGE" value="готовый компьютер" />
+    <MESSAGE value="домашка 5 урок" />
+    <option name="LAST_COMMIT_MESSAGE" value="домашка 5 урок" />
   </component>
 </project>
