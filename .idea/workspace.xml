@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d013b0ce-1a89-4446-8209-d84fb3f2b1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Computer.java" afterDir="false" />
+    <list default="true" id="d013b0ce-1a89-4446-8209-d84fb3f2b1a1" name="Default Changelist" comment="дз 8 начало =)">
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/lesson7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/ProductComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/Supermarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="готовый компьютер" />
+        <option name="rewordedMessage" value="домашка 5 урок&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;готовый компьютер&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;готовый компьютер&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;готовый компьютер&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;домашка 5 урок&#10;&#10;&#10;готовый компьютер" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="7e664ec5d983867a855b1c1953df1db84b5a0fcd" />
   </component>
   <component name="ProjectId" id="1rXQRhUWqEjTamQ5l8as4Vt3leS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -89,7 +103,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/linkedList" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.Main" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="untitled104" />
@@ -102,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -142,6 +173,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание. одномерные 8 из 9. многомерные 4 из 5." />
+    <MESSAGE value="дз 8 начало =)" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз 8 начало =)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson8/Supermarket.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
