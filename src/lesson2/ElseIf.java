@@ -1,8 +1,8 @@
-package com.company;
+package lesson2;
 
 import java.util.Scanner;
 
-public class lesson2 {
+public class ElseIf {
 
     public static void task1() {
         // из двоичной в десятичную

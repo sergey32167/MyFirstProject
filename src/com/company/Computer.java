@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Computer {
 
-    Scanner scan = new Scanner(System.in);
-
-    public String pros;
-    public int ram;
-    public int rom;
-    public int limit;
-    public int countMax;
+    private Scanner scan; 
+    private String processor;
+    private int ram;
+    private int rom;
+    private int limit;
+    private int countMax;
 
 
     public void setRam(int ram) {
@@ -21,17 +20,18 @@ public class Computer {
         this.rom = rom;
     }
 
-    public void setPros(String pros) {
-        this.pros = pros;
+    public void setProcessor(String processor) {
+        this.processor = processor;
     }
 
     public Computer() {
+        this.scan = new Scanner(System.in);
         this.countMax = 0;
         this.limit = (int) (2 + Math.random() * 4);
     }
 
     public void print() {
-        System.out.println(ram + " " + rom + " " + pros + " ");
+        System.out.println(ram + " " + rom + " " + processor + " ");
     }
 
     public void turnOn() {

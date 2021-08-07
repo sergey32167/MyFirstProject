@@ -1,11 +1,11 @@
-package com.company;
+package lesson3;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Lesson3 {
+public class Loops {
 
     Scanner scan = new Scanner(System.in);
     Random rand = new Random();
@@ -148,11 +148,7 @@ public class Lesson3 {
         System.out.println("Наибольший элемент" + " " + max);
     }
 
-    public void task8() {
-
-    }
-
-    public void task9() {
+      public void task9() {
 
         System.out.println("Введите переменную");
         int n = scan.nextInt();
